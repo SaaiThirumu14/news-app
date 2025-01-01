@@ -5,7 +5,7 @@ import 'destination.dart';  // Import DescriptionPage here
 
 Future<NewsResponse> fetchNews() async {
   final response = await http.get(
-    Uri.parse('https://newsapi.org/v2/everything?q=keyword&apiKey=9c57b5c8b7f04eaf991935601a387094'),
+    Uri.parse('https://newsapi.org/v2/everything?q=Tamil%20Nadu&language=en&apiKey=9c57b5c8b7f04eaf991935601a387094'),
   );
 
   print("Response Status: ${response.statusCode}");
